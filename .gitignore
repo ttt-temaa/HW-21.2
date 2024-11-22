@@ -1,0 +1,13 @@
+# Ignore IDE-specific files
+.idea/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore SQLite database files
+*.sqlite
+*.sqlite3
