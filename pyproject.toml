@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw-21-2"
+version = "0.1.0"
+description = ""
+authors = ["ttt.temaa <artem1005200776@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_21"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
