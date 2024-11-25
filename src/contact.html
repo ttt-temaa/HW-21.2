@@ -4,9 +4,114 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Контакты</title>
+    <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
+<div class="row">
+    <div class="col-2 t-5 bg-dark text-white full-height nav-block" style="height: 800px">
+        <div>
+            <nav>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="#" alt="Logo" width="30" height="24"
+                         class="d-inline-block align-text-top">
+                    <b>Меню</b><br>
+                    _____________________________<br>
+                </a>
+            </div>
+        </nav>
+
+        <a href="main.html" class="btn btn-primary w-100 color mt-2" role="button">Главная</a><br>
+
+        <a href="category.html"
+           class="btn color" role="button" data-bs-toggle="button">Категории</a><br>
+
+        <a href="catalog.html"
+           class="btn color" role="button" data-bs-toggle="button">Заказы</a><br>
+
+        <a href="contact.html"
+           class="btn color" role="button" data-bs-toggle="button">Контакты</a><br>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="#" width="36" height="36"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                Пользователь
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                                <li><a class="dropdown-item" href="#">Выход</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="col-10 t-10 text-center">
+        <h1 class="text-center mt-5">Контакты</h1>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-4 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3 text-start">
+                                <label for="exampleInputPassword1" class="form-label">Имя</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 text-start">
+                                <label class="form-label">Почта</label>
+                                <div class="input-group flex-nowrap">
+                                    <span class="input-group-text" id="addon-wrapping">@</span>
+                                    <input type="email" class="form-control" aria-label="Username"
+                                           aria-describedby="addon-wrapping">
+                                </div>
+                            </div>
+
+                            <div class="form-floating mt-5">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                          style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Сообщение</label>
+                            </div>
+                            <div class="d-flex justify-content-start mt-3">
+                                <a href="#" class="btn btn-primary">Отправить</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-6 mt-5">
+
+                </div>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4 mt-5">
+                <h3 class="text-start">Наши контакты</h3><br>
+                <h6 class="text-start fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+                    neque malesuada, sagittis metus sit amet, aliquet felis. Nam vestibulum, urna id hendrerit viverra,
+                    eros risus fermentum nunc, sit amet vulputate eros lacus non nisi. Donec vehicula, libero ut
+                    suscipit fringilla, mi enim gravida ex, sit amet bibendum odio lacus id dolor. Maecenas rutrum felis
+                    non arcu tristique, at tincidunt mi auctor. Sed vitae turpis euismod, faucibus turpis ut, rhoncus
+                    lorem.</h6><br>
+                <h6 class="text-start fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+                    neque malesuada, sagittis metus sit amet, aliquet felis. Nam vestibulum, urna id hendrerit viverra,
+                    eros risus fermentum nunc, sit amet vulputate eros lacus non nisi.</h6>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
